@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Welcome to the most extraordinary hotel in boston"
+		/>
+		<meta name="keywords" contentboston hotel />
+		<title>Hotel pebbles | ContactUs</title>
+		<link rel="stylesheet" href="/hotel.css/style.css" />
+		<link rel="stylesheet" href="https://kit.fontawesome.com/7bf621c13a.css" crossorigin="anonymous">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="../hotel.css/mobile.css">
+	</head>
+	<body>
+		<header>
+			<nav id="navbar">
+				<div class="container">
+					<h1 class="logo"><a href="index.html"> BP</a></h1>
+					<ul>
+                        <li><a href="about.html">Home</a></li>
+						<li><a href="contact.html">About</a></li>
+						<li><a class="current" href="index.html">ContactUs</a></li>
+					</ul>
+				</div>
+			</nav>
+        </header>
+        <sectiom id="contact-form" class="py3">
+            <div class="container">
+                <h1 class="l-heading"><span class="text-primary"> Contact </span>Us</h1>
+                <p>Please Fill Out The Form Below To Contact us</p>
+                <form action="process.php">
+                    <div class="formgroup">
+                        <input type="text" name="Name" id="name" placeholder="Firstname">
+                    </div>
+                    <div class="formgroup">
+                        <input type="text" name="Name" id="name" placeholder="lastname">
+                    </div>
+                    <div class="formgroup">
+                        <input type="e-mail" name="e-mail" id="e-mail" placeholder="E-mail">
+                    </div>
+                    <div class="formgroup">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" ></textarea> 
+                    </div>
+                    <button type="submit" class="btn">submit</button>
+                
+
+                </form>
+
+            </div>
+        </sectiom>   
+        <section id="contact-info" class="bg-dark">
+            <div class="container">
+                <div class="box">
+                    <i class=" fas fa-hotel fa-3x"></i> 
+                    <h3>Location</h3>
+                    <p> 50 Main st,boston MA</p>
+                </div>
+                    
+                <div class="box">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <h3>Phone Number</h3>
+                    <p>+234 8101252328</p>
+                </div>
+                <div class="box"> 
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <h3>Email address</h3>
+                    <p>Frontdesk@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        
+		
+		<footer id="main-footer">
+			<p>Hotel BT &copy;2023, All Right Reserves</p>
+        </footer>
+	</body>
+</html>

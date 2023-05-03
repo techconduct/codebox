@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .dropdown {
+        width: 30rem;
+        position: relative;
+
+    }
+
+    .dropcont {
+        display: none;
+        background-color: rgb(44, 95, 140);
+        max-width: 10rem;
+        height: 10rem;
+        position: absolute;
+        list-style: none;
+
+
+    }
+    
+
+    .dropcont  a {
+        text-decoration: none;
+        padding: 1rem 0.5rem;
+        color: rgb(243, 231, 231);
+        font-size: 1.4rem;
+        margin-top: 2.0rem;
+    }
+
+    .dropdown:hover .dropcont {
+        display: block;
+    }
+
+
+</style>
+
+<body>
+    <div class="dropdown">
+        <p>hey</p>
+        <div class="dropcont">
+            <li><a href="">types</a></li>
+            <li><a href="">menu</a></li>
+            <li><a href="">list</a></li>
+            <li><a href="">categories</a></li>
+        </div>
+    </div>
+
+</body>
+
+</html>

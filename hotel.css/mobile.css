@@ -1,0 +1,37 @@
+#navbar ul,#navbar ul li{
+    float: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.289) ;
+}
+#navbar ul{
+    margin-top: 10px;
+}
+.logo{
+    display: block;
+
+}
+#home-info .info-img{
+    display: none;
+}
+#home-info .info-content{
+    width: 100%;
+}
+/* About queries */
+#about-info .info-left{
+   width: 100%;
+   margin-bottom: 10px;
+}
+#about-info .info-right{
+    float: none;
+    width: 100%;
+}
+/* testimonials queries */
+#testimonials{
+    height: 650px;
+}
+body{
+    background-color:#444;;
+}
+
+.l-heading{
+    color: rgb(7, 11, 14);
+}

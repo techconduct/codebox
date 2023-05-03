@@ -1,0 +1,70 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #0c1318;
+}
+#container{
+    background-color:#fff;
+    margin: auto;
+    max-width: 400px;
+    height: 100%;
+    margin-top:30px ;
+    }
+    
+.heading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+p{
+    padding-top: 7px;
+}
+.form-group label{
+    display: block;
+    color: #191c21;
+    
+}
+.form-group input{
+    width: 22rem;
+    height: 30px;
+}
+.form-group{
+    margin-left: 10px;
+    padding: 10px;
+
+}
+.btn{
+    background-color: #1b1f24;
+    border: none;
+    width: 90%;
+    margin: 2rem;
+    margin-left: 1.2rem;
+    height:2em;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
+.Terms{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font: 15px;
+}
+footer{
+    text-align: center;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+    border-color: #bbd2d4;
+
+}

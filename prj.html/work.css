@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+.nav-bar{
+    background-color: #1a1212;
+    padding: 20px;
+}
+.nav-bar ul li {
+    display:inline;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:#fff ;
+    padding: 20px;
+}
+.nav-bar ul li a:hover{
+    background: #c51212;
+    color: #fff;
+}

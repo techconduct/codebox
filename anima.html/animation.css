@@ -1,0 +1,36 @@
+body {
+	background-color: #e20b20;
+}
+.anime {
+	width: 10rem;
+	height: 10rem;
+	background-color: #168720;
+	animation-name: mic;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: fixed;
+	top: 0rem;
+	right: 0rem;
+	left: 0rem;
+	box-shadow: 2px 2px 5px 10px #5c625d;
+}
+@keyframes mic {
+	20% {
+		background-color: rgb(27, 21, 207);
+		left: 80rem;
+		top: 0rem;
+		width: 1rem;
+	}
+	30% {
+		background-color: rgb(220, 226, 43);
+		top: 35rem;
+		left: 80rem;
+		width: 4rem;
+	}
+	50% {
+		top: 35rem;
+		left: 0rem;
+		background-color: black;
+		width: 10rem;
+	}
+}

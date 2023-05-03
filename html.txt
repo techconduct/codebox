@@ -1,0 +1,21 @@
+#Responsive design
+*Use rem over px
+*Setting the view port height
+*Using max-width over width in containers .
+*Mediaqueries
+for mobile view
+*@media(max-width:600px){}
+for tablet
+min-width:769px max-width:769
+*Px is used in media queries brcause its absolute and fixed
+wide learner#
+BACK END
+for good linear gradient
+ linear-gradient(103.24deg,rgba(0,8,29,0.3)23.83%,rgba(0,8,29,0.3)96.1%),;
+ background: linear-gradient(146.77deg, rgba(0, 8, 29, 0.6) 0%, rgba(53, 13, 49, 0.6) 65.31%, rgba(132, 5, 25, 0.6) 99.52%);
+
+FLEX
+justify-content {is for aligning horizontally}
+align-items {is for aligning vertically}
+order is for positioning flex boxes .
+flex-flow :row-wrap;

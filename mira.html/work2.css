@@ -1,0 +1,102 @@
+*{  padding: 0rem;
+    margin: 0rem;
+}
+
+ .img{
+    background: url(../IMAGES/IMG-20230321-WA0090.jpg) no-repeat center center/cover;
+    width: 40%;
+    height: 43.4rem;
+}
+.parent{
+    display: flex;
+}
+
+/* container */
+.cont{
+    max-width:60%;
+    height: 30rem;
+    margin-top: 5rem;
+    margin-right: rem;
+    margin-left: 12rem;
+    box-shadow:  #81897f 2px 2px 20px 0px;;
+    background: linear-gradient( 50deg,#21311d,#4eed35ad);
+}
+/* txt */
+.text{
+    text-align: center;
+    padding-top: 30px;
+     color: #4eed35;
+}
+.text a{
+    color: #81897f;
+}
+.text1{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+}
+/* Form-group */
+.form-group{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 4rem;
+}
+.form-group input{
+    width: 80%;
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    border: none;
+    background-color: #c7d9c3;
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.but{
+    margin: 30px;
+    text-align: center;
+    
+}
+.but a{
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem;
+    background-color: #4eed35;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+footer{
+    padding-bottom: 1rem;
+}
+/* media query */
+@media (max-width:600px){
+
+    body{
+        background: #68b267b3;
+         }
+            .parent{
+                flex-direction:column;
+            
+            }
+            .img{
+                width:35rem ;
+                height: 20rem;
+                margin: auto;
+
+            }
+            .cont{
+                height: 30rem;
+                margin-left: 100px;
+                margin-right: 50px;
+                margin-top: 30px;
+                width: 30rem;
+                box-shadow: 1px 2px 20px 5px #f4f4f4;
+                background:linear-gradient(60deg,#0e130d,  #2a501874);
+            }
+            .but a{
+                background-color: #3f6b38;
+            }
+            .text{
+            color: #3f6b38;
+        } 
+}

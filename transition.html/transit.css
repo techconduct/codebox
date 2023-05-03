@@ -1,0 +1,19 @@
+.box{
+    background-color: rgb(195, 123, 15);
+    width: 2rem;
+    height: 10rem;
+    transition-duration: 2s;
+    transition-delay: 3s;
+    /* transition-timing-function: ; */
+
+}
+.box:hover{
+    background-color: #39da54;
+}
+.ease{
+    transition-timing-function: ease;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+
+}
